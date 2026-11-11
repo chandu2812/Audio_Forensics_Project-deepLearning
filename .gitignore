@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Data (Large files - DO NOT UPLOAD)
+data/raw/
+data/processed/audio/
+data/processed/spectrograms/
+data/processed/*.csv
+
+# Models & outputs
+models/*.pth
+outputs/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
